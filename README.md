@@ -241,7 +241,7 @@ patchwork::wrap_plots(
             col = "red",
             alpha = 0.1)+
         geom_text(aes(x, y, label = m), col = "black", size = 3) +
-        coord_sf()+
+        coord_equal()+
         theme_void()
 )
 #> Warning: Removed 205 rows containing missing values (`geom_text()`).
