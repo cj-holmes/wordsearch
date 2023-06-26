@@ -254,5 +254,9 @@ patchwork::wrap_plots(
 -   There would need to be a test/warning/separate processing step that
     removes any spaces or punctuation/special characters from the words
     supplied
+-   Another test that checks all of the words provided can actually fit
+    inside the wordsearch grid specified
+    -   A word with 10 letters will never fit inside a 5x5 wordsearch
+        grid and will error
 -   Could add 3 more word orientations that go in the opposite direction
     to the first 3
